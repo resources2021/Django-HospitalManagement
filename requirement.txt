@@ -1,0 +1,23 @@
+Install python and while instaling click add to path.
+The install django by the following commands👇
+
+
+To install requirements:
+Open command prompt and paste this(one by one):
+
+pip install django==3.0.5
+pip install django-widget-tweaks
+pip install xhtml2pdf
+
+Download zip file and extract it. Open command prompt in that folder wher you have extracted the zip and paste the commands:
+
+py manage.py makemigrations
+py manage.py migrate
+py manage.py runserver
+
+Open your browser and paste the url: http://127.0.0.1:8000/
+
+Things need to be changed:
+
+Go to Hospital management folder and then settings.py
+Scroll down and you will find a detail of smtp server. There you need to change the email and the password
